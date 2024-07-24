@@ -1,0 +1,185 @@
+body {
+   font-family: 'Courier New', serif;
+   background-color: #f007;
+   color: #fff;
+   margin: 0;
+   padding: 0;
+   align-items: center;
+   text-align: center;
+   overflow-x: visible;
+}
+
+@keyframes bgcolor {
+  0% {
+    background-color: #f007;
+  }
+  100% {
+    background-color: #ff0;
+  }
+  0% {
+    background-color: #0ff;
+  }
+}
+
+.marquee {
+   text-shadow: 2px 4px 1px #ff0;
+   font-family: 'Poor Richard', serif;
+   font-size: 300px;
+   color: #089;
+   background-color: #f00;
+   border-radius: 3px;
+   border: 5px solid #ff0;
+   animation: bgcolor 1.5s infinite;
+}
+
+.oh-hello-man img {
+    display: block;
+    margin: auto;
+    height: 300px;
+    border-radius: 15px;
+    width: 500px;
+    border: 8px solid #f76;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.5);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.oh-hello-man img:hover {
+    display: block;
+    margin: auto;
+    height: 500px;
+    border-radius: 500%;
+    width: 800px;
+    border: 8px solid #000;
+    animation: stretch 1s infinite;
+}
+
+.lil-nas-x h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #f0f;
+    text-decoration: underline;
+    text-shadow: 4px 4px 4px #ff0;
+}
+
+.lil-nas-x h1:hover {
+    text-align: center;
+    font-size: 50px;
+    color: #f00;
+    text-decoration: none;
+    text-shadow: 10px 10px 10px #ff0;
+}
+
+.lil-nas-x img {
+    display: block;
+    margin: auto;
+    height: 50px;
+    border: 3px solid #f00;
+    width: 500px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lil-nas-x img:hover {
+    display: block;
+    margin: auto;
+    height: 400px;
+    border: 3px solid #f00;
+    width: 600px;
+    animation: fade 2s infinite;
+}
+
+.lil-nas-x i {
+    font-size: 30px;
+    color: #500;
+    background-color: #0ff;    
+    border: 3px solid #000;
+}
+
+.lil-nas-x i:hover {
+    font-size: 30px;
+    color: #000;
+    background-color: #f00;
+    border: 3px solid #0ff;
+}
+
+.sprite-cranberry a {
+    font-family: 'Times New Roman', serif;
+    text-decoration: none;
+    color: #400;
+    text-align: center;
+}
+
+.sprite-cranberry a:hover {
+    font-family: 'Times New Roman', serif;
+    text-decoration: underline;
+    color: #0ff;
+    text-shadow: 3px 4px 3px #000;
+    text-align: center;
+}
+
+@keyframes weirdfunny {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(100%);
+  }
+  600% {
+    transform: translateX(300%);
+  }
+  0% {
+    transform: translateX(100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+}
+
+.sprite-cranberry img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+.sprite-cranberry u {
+    font-family: 'Comic Sans MS', cursive;
+    color: #500;
+    text-shadow: 3px 2px 3px #000;
+}
+
+.linky-winky a {
+    font-size: 100px;
+    text-decoration: none;
+    color: #0ff;
+    margin-top: auto;
+}
+
+.linky-winky a:hover {
+    font-size: 100px;
+    text-decoration: none;
+    color: #0ff;
+    margin-top: auto;
+    text-shadow: 2px 3px 2px #500;
+}
+
+audio {
+    display: none;
+}
